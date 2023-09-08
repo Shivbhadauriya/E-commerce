@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/awards.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/shopping-bag.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>grocery</title>
+    <style>
+        .nav {
+            background-color: rgb(54, 117, 253);
+            padding: 2px;
+
+        }
+
+        .dropbtn {
+            background-color: white;
+
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            padding: 7px 30px;
+            font-weight: bold;
+            margin-left: 15px;
+            color: blue;
+        }
+
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 230px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+
+        }
+
+
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+            color: rgb(54, 117, 253);
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #eef3ef;
+        }
+
+        .dropdown i:hover {
+            color: rgb(54, 117, 253);
+        }
+
+
+        .imgnav {
+            height: 50px;
+            width: 90px;
+            margin-left: 13%;
+
+        }
+
+        .search {
+            width: 30%;
+            height: 35px;
+            margin-left: 8px;
+            padding: 10px;
+        }
+
+        .an1 {
+            text-decoration: none;
+            font-size: 19px;
+            margin-left: 48px;
+            color: white;
+        }
+
+
+
+
+
+        .an3 {
+            text-decoration: none;
+            font-size: 19px;
+            color: white;
+        }
+
+        div.gallery {
+            margin-top: 10px;
+            border: none;
+            float: left;
+            width: 50%;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 50%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav">
+        <div>
+            <a href="#"><img class="imgnav" src="/static/flipkartlogo.jpg\" alt="logo"></a>
+
+            <input class="search" type="search" placeholder="search for products, brand and more">
+
+            <div class="dropdown">
+                <button class="dropbtn">LOGIN</button>
+                <div class="dropdown-content">
+                    <h4>New customer? <a class="signup" href="#"
+                            style="display: inline;padding-left: 30px;color:rgb(54, 117, 253);">Sign Up</a> </h4>
+                    <a href="#"><i class="fa fa-user"
+                            style="margin-right: 8px;color: rgb(54, 117, 253);"></i>Profile</a>
+
+                    <a href="#"><i class="material-icons"
+                            style="margin-right: 8px;color: rgb(54, 117, 253);">add_circle</i>Flipkart Plus zones</a>
+
+                    <a href="#"><i class="material-icons"
+                            style="margin-right: 8px;color: rgb(54, 117, 253);">add_shopping_cart</i>Orders</a>
+
+                    <a href="#"> <i class="material-icons"
+                            style="margin-right: 8px;color: rgb(54, 117, 253);">favorite</i>Wishlist</a>
+
+                    <a href="#"><i class="material-icons"
+                            style="margin-right: 8px;color: rgb(54, 117, 253);">account_balance_wallet</i>Rewards</a>
+
+                    <a href="#"><i class="fa fa-gift"
+                            style="font-size:24px; margin-right: 8px;color: rgb(54, 117, 253);"></i>Giftcards</a>
+
+                </div>
+            </div>
+            <a class="an1" href="#become a seller">Become a Seller</a>
+            <div class="dropdown">
+                <a class="an1" href="more">More<i class="material-icons"
+                        style="font-size: 15px;cursor: pointer;color: white;">expand_more</i></a>
+                <div class="dropdown-content">
+                    <a href="#"> <i class="fa fa-bell"
+                            style="margin-right: 8px;color: rgb(54, 117, 253);"></i>notification preferences</a>
+                    <a href="#"><i class="fa fa-question-circle"
+                            style="margin-right: 8px;color: rgb(54, 117, 253);"></i>24x7 Customer Care</a>
+                    <a href="#"><i class="material-icons"
+                            style="margin-right: 8px;color: rgb(54, 117, 253);">call_missed</i>Advertise</a>
+                </div>
+            </div>
+            <a class="fa fa-shopping-cart" href="#" style="font-size:20px;margin-left: 55px;color: white;"></a>
+            <a class="an3" href="cart">Cart</a>
+
+        </div>
+    </nav>
+
+    <div class="gallery">
+        <a href="#">
+            <img src="/static/atta2.jpg" alt="atta" width="50%" height="400">
+        </a>
+        <div class="desc">Up to 35% OFF</div>
+    </div>
+
+    <div class="gallery">
+        <a href="#">
+            <img src="/static/supersalegrocery.jpg" alt="discount" width="40%" height="400">
+        </a>
+        <div class="desc">Super Sales</div>
+    </div>
+</body>
+
+</html>
